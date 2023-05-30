@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #ceb8ff;
+  
+
+}
+
+h1{ 
+  text-align: center;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 15px;
+  top: auto;
+
+} 
+
+.texto {
+  position: absolute;
+  width: 42%;
+  height: 60%;
+  left: 12%;
+  top: 15%;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: #ab7efe;
+}
+
+.texto::placeholder {
+  color: #d5c9ff;
+}
+
+.texto:focus,
+.texto:active {
+  border: none;
+  outline: none;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1% 0;
+  position: absolute;
+  width: 80%;
+  left: 35%;
+  top: 82%;
+  gap: 10px;
+}
+
+.btn-encriptar {
+  align-items: center;
+  justify-content: center;
+  padding: 1.5%;
+  width: 20%;
+  background-color: #500aa6;
+  border-radius: 24px;
+  font-family: "Inter";
+  font-size: 40px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-desencriptar {
+  align-items: center;
+  justify-content: center;
+  padding: 1.5%;
+  width: 20%;
+  background-color: #500aa6;
+  border-radius: 24px;
+  font-family: "Inter";
+  font-size: 40px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-desencriptar:hover,
+.btn-encriptar:hover {
+  transform: scale(1.1);
+  margin: 1%;
+  
+}
+
+.inicio1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  left: 60%;
+  top: 17%;
+  border-radius: 32px;
+
+}
+
+.mensaje1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 20px;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  text-align: center;
+}
+
+.mensaje1 p {
+  width: 80%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 200%;
+  text-align: center;
+  color: #000000;
+  top: 15%;
+}
+

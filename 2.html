@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de mensaje</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+   
+    <div class="container">
+      <h1>ENCRIPTADOR DE MENSAJE</h1>
+      <div class="encriptar">
+        <textarea
+          name="texto"
+          class="texto"
+          id="texto"
+          cols="30"
+          rows="10"
+          placeholder="Ingresa el mensaje aquí"
+        ></textarea>
+
+        <div class="botones">
+          <button class="btn-encriptar" type="button" onclick="encriptar()">
+            Encriptar
+          </button>
+          <button class="btn-desencriptar" type="button" onclick="desencriptar()">
+            Desencriptar
+          </button>
+        
+        </div>
+      </div>
+      <div class="inicio1">
+        <img src="img/inicio1.png" alt="" id="inicio" />
+        <div class="mensaje1" id="mensaje1">
+          <p id="parrafo">
+            Ingresa el mensaje
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="javas.js"></script>
+</html>
